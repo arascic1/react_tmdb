@@ -2,15 +2,22 @@
     border-radius: 8px;
     height: 30px;
     border-width: 2px;
-    width: 1155px;
-    padding-left: 8px;
+    width: 1125px;
+    padding-left: 30px;
     letter-spacing: .01em;
     font-size: large;
 }
 
 #searchBarDiv {
+    position: relative;
     width: fit-content;
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ikonica {
+    position: absolute;
+    transform: translateY(60%);
+    left: 10px;
 }
