@@ -4,7 +4,8 @@
     border-width: 2px;
     width: 1155px;
     padding-left: 8px;
-    letter-spacing: .1em;
+    letter-spacing: .01em;
+    font-size: large;
 }
 
 #searchBarDiv {

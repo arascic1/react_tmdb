@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
+import { useAppDispatch } from '../state/hooks';
+import { fetchTopMovies, fetchTopTVShows } from '../state/slices/contentSlice';
 import "./css/genre_selector.css"
 
 const GenreSelector = () => {
@@ -13,6 +15,8 @@ const GenreSelector = () => {
         element.fontWeight = "bold";
     }
 
+    const dispatch = useAppDispatch()
+
     const [selected, setSelected] = useState("tv_initial");
 
     useEffect(() => {
@@ -23,14 +27,18 @@ const GenreSelector = () => {
             // drop movies style
             dropStyle(movieButtonStyle);
             enableStyle(tvShowsButtonStyle);
+            dispatch(fetchTopTVShows())
         }
         else if(selected === "movies") {
             dropStyle(tvShowsButtonStyle);
             enableStyle(movieButtonStyle);
+            dispatch(fetchTopMovies())
         }
-        else if(selected === "tv_initial") return;
+        else if(selected === "tv_initial") {
+            dispatch(fetchTopTVShows())
+        }
         else throw Error("hmm");
-    });
+    }, [selected]);
 
     return (
         <div className="container" id = "container">
