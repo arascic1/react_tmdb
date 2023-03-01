@@ -1,0 +1,26 @@
+#moviesButton {
+    border-right: 0;
+    background-color: white;
+}
+
+.selectorButton {
+    border: 2px solid;
+    cursor: pointer;
+    vertical-align: center;
+    font-size: x-large;
+    padding: 8px;
+    width: 180px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#tvShowButton {
+    background-color: rgba(0, 191, 255, 0.243);
+    font-weight: bold;
+}
+
+.container {
+    line-height: 0;
+    padding-left: 14%;
+    padding-top: 30px;
+}
