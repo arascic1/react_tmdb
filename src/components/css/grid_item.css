@@ -25,6 +25,13 @@
     border-top: 3px solid;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(30% - 38px);
+}
+
 .itemContainer {
     margin-top: 20px;
     display: grid;

@@ -6,12 +6,12 @@ import SearchBar from './components/SearchBar'
 import ItemGrid from './components/ItemGrid'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [regime, setRegime] = useState('tv_initial')
 
   return (
     <div className="App">
-      <GenreSelector />
-      <SearchBar />
+      <GenreSelector setRegime={setRegime} />
+      <SearchBar regime={regime}/>
       <ItemGrid />
     </div>
   )

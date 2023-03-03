@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import qm from '../res/qm.jpg';
 import { useAppDispatch, useAppSelector } from '../state/hooks';
 import { fetchTopTVShows } from '../state/slices/contentSlice';
@@ -20,14 +20,30 @@ const ItemGrid = () => {
             content.data.length ?
 
             (<div className='itemContainer'>
-                { content.data.map(data => (
-                    <div className = "gridItem" key = {data.title}>
-                        <div className='divSlike'>
-                            <img className = "itemImage" alt = {data.title} src = {imgBaseURL + data.backdrop_path}></img>
-                        </div>
-                        <h1 className = "title">{data.title}</h1>
-                    </div>
-                ))}
+                {(() => {
+                    const elements = []
+                    let minorUIFix = false
+
+                    for(let i = 0; i < content.data.length; i++) {
+                        const data = content.data[i]
+
+                        if(i % 2 == 0 && i != content.data.length - 1) {
+                            if(data.title.length > 35 || content.data[i + 1].title.length > 35) minorUIFix = true
+                            else minorUIFix = false
+                        }
+
+                        elements.push(
+                            <div className = "gridItem" key = {data.id}>
+                                <div className='divSlike'>
+                                    <img className = "itemImage" alt = {data.title} src = {imgBaseURL + data.backdrop_path}></img>
+                                </div>
+                                <h1 className = {minorUIFix ? "title center" : "title"}>{data.title}</h1>
+                            </div>
+                        )
+                    }
+
+                    return elements
+                })()}
             </div>)
 
             : null }

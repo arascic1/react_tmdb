@@ -1,0 +1,17 @@
+"filename", "language", "TypeScript", "TypeScript JSX", "CSS", "XML", "comment", "blank", "total"
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\App.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\App.tsx", "TypeScript JSX", 0, 17, 0, 0, 0, 4, 21
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 1
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\GenreSelector.tsx", "TypeScript JSX", 0, 55, 0, 0, 1, 12, 68
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\ItemGrid.tsx", "TypeScript JSX", 0, 30, 0, 0, 0, 8, 38
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\SearchBar.tsx", "TypeScript JSX", 0, 35, 0, 0, 0, 6, 41
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\genre_selector.css", "CSS", 0, 0, 23, 0, 0, 3, 26
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\grid_item.css", "CSS", 0, 0, 33, 0, 0, 4, 37
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\search_bar.css", "CSS", 0, 0, 21, 0, 0, 2, 23
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\index.css", "CSS", 0, 0, 12, 0, 0, 2, 14
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\main.tsx", "TypeScript JSX", 0, 13, 0, 0, 0, 2, 15
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\hooks.ts", "TypeScript", 4, 0, 0, 0, 0, 1, 5
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\slices\contentSlice.ts", "TypeScript", 86, 0, 0, 0, 0, 19, 105
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\store.ts", "TypeScript", 10, 0, 0, 0, 0, 2, 12
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 1, 1, 2
+"Total", "-", 100, 150, 89, 1, 2, 67, 409
