@@ -1,0 +1,18 @@
+"filename", "language", "TypeScript", "TypeScript JSX", "CSS", "XML", "comment", "blank", "total"
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\App.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\App.tsx", "TypeScript JSX", 0, 16, 0, 0, 0, 2, 18
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 1
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\Homepage.tsx", "TypeScript JSX", 0, 14, 0, 0, 0, 3, 17
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\genre_selector.css", "CSS", 0, 0, 23, 0, 0, 3, 26
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\grid_item.css", "CSS", 0, 0, 46, 0, 0, 7, 53
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\search_bar.css", "CSS", 0, 0, 21, 0, 0, 2, 23
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\GenreSelector.tsx", "TypeScript JSX", 0, 53, 0, 0, 3, 12, 68
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\ItemGrid.tsx", "TypeScript JSX", 0, 40, 0, 0, 0, 12, 52
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\SearchBar.tsx", "TypeScript JSX", 0, 63, 0, 0, 0, 14, 77
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\index.css", "CSS", 0, 0, 12, 0, 0, 2, 14
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\main.tsx", "TypeScript JSX", 0, 13, 0, 0, 0, 2, 15
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\hooks.ts", "TypeScript", 4, 0, 0, 0, 0, 1, 5
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\slices\contentSlice.ts", "TypeScript", 100, 0, 0, 0, 0, 20, 120
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\store.ts", "TypeScript", 10, 0, 0, 0, 0, 2, 12
+"c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 1, 1, 2
+"Total", "-", 114, 199, 102, 1, 4, 84, 504

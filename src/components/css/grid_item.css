@@ -42,3 +42,12 @@
     grid-template-rows: auto auto;
     margin-bottom: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+}

@@ -1,8 +1,8 @@
 import React, { Dispatch, useEffect } from 'react'
 import { useState } from 'react';
-import { useAppDispatch } from '../state/hooks';
-import { fetchTopMovies, fetchTopTVShows } from '../state/slices/contentSlice';
-import "./css/genre_selector.css"
+import { useAppDispatch } from '../../state/hooks';
+import { fetchTopMovies, fetchTopTVShows } from '../../state/slices/contentSlice';
+import "../css/genre_selector.css"
 
 type GenreSelectorProps = {
     setRegime: Dispatch<React.SetStateAction<string>>

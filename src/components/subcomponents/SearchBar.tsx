@@ -1,15 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import './css/search_bar.css';
+import '../css/search_bar.css';
 import { ChangeEvent, useEffect, useRef, useState } from 'react';
-import { APIkey, fetchTopMovies, fetchTopTVShows, searchMovies, searchTV } from '../state/slices/contentSlice';
-import { useAppDispatch } from '../state/hooks';
+import { APIkey, fetchTopMovies, fetchTopTVShows, searchMovies, searchTV } from '../../state/slices/contentSlice';
+import { useAppDispatch } from '../../state/hooks';
 
-type SearchBarProps = {
+export type RegimeProp = {
   regime: string
 }
 
-const SearchBar = (props: SearchBarProps) => {
+const SearchBar = (props: RegimeProp) => {
   const [query, setQuery] = useState('')
   const searchMovieURL = `https://api.themoviedb.org/3/search/movie?api_key=${APIkey}&language=en-US&query=${query}&page=1&include_adult=false`
   const TVsearchURL = `https://api.themoviedb.org/3/search/tv?api_key=${APIkey}&language=en-US&page=1&query=${query}&include_adult=false`

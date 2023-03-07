@@ -1,0 +1,43 @@
+Date : 2023-03-03 22:26:01
+Directory : c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src
+Total : 10 files,  76 codes, 2 comments, 17 blanks, all 95 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          8 |         49 |          2 |         13 |         64 |
+| TypeScript     |          1 |         14 |          0 |          1 |         15 |
+| CSS            |          1 |         13 |          0 |          3 |         16 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                         |         10 |         76 |          2 |         17 |         95 |
+| . (Files)                                                                                                 |          1 |         -1 |          0 |         -2 |         -3 |
+| components                                                                                                |          8 |         63 |          2 |         18 |         83 |
+| components (Files)                                                                                        |          4 |       -106 |         -1 |        -23 |       -130 |
+| components\css                                                                                            |          1 |         13 |          0 |          3 |         16 |
+| components\subcomponents                                                                                  |          3 |        156 |          3 |         38 |        197 |
+| state                                                                                                     |          1 |         14 |          0 |          1 |         15 |
+| state\slices                                                                                              |          1 |         14 |          0 |          1 |         15 |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                  | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\App.tsx                                    | TypeScript JSX |         -1 |          0 |         -2 |         -3 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\GenreSelector.tsx               | TypeScript JSX |        -55 |         -1 |        -12 |        -68 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\Homepage.tsx                    | TypeScript JSX |         14 |          0 |          3 |         17 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\ItemGrid.tsx                    | TypeScript JSX |        -30 |          0 |         -8 |        -38 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\SearchBar.tsx                   | TypeScript JSX |        -35 |          0 |         -6 |        -41 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\css\grid_item.css               | CSS            |         13 |          0 |          3 |         16 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\GenreSelector.tsx | TypeScript JSX |         53 |          3 |         12 |         68 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\ItemGrid.tsx      | TypeScript JSX |         40 |          0 |         12 |         52 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\components\subcomponents\SearchBar.tsx     | TypeScript JSX |         63 |          0 |         14 |         77 |
+| c:\Users\Ahmed\OneDrive\Desktop\movie react projekat\movie\src\state\slices\contentSlice.ts               | TypeScript     |         14 |          0 |          1 |         15 |
+| Total                                                                                                     |                |         76 |          2 |         17 |         95 |
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
