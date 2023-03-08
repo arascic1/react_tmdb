@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import contentReducer from './slices/contentSlice'
+import sessionReducer from './slices/sessionSlice'
 
 const store = configureStore({
   reducer: {
-    content: contentReducer
+    content: contentReducer,
+    session: sessionReducer
   }
 })
 

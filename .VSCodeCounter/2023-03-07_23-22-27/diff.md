@@ -1,0 +1,27 @@
+# Diff Summary
+
+Date : 2023-03-07 23:22:27
+
+Directory c:\\Users\\Ahmed\\OneDrive\\Desktop\\movie react projekat\\movie\\src
+
+Total : 5 files,  139 codes, 0 comments, 26 blanks, all 165 lines
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| TypeScript JSX | 3 | 108 | 0 | 22 | 130 |
+| CSS | 2 | 31 | 0 | 4 | 35 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 5 | 139 | 0 | 26 | 165 |
+| . (Files) | 1 | 0 | 0 | -1 | -1 |
+| components | 4 | 139 | 0 | 27 | 166 |
+| components (Files) | 2 | 106 | 0 | 21 | 127 |
+| components\\css | 1 | 31 | 0 | 5 | 36 |
+| components\\subcomponents | 1 | 2 | 0 | 1 | 3 |
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)

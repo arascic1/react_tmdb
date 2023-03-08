@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../state/hooks';
+import { setType } from '../../state/slices/sessionSlice';
 import '../css/grid_item.css';
 import { RegimeProp } from './SearchBar';
 
@@ -7,6 +8,11 @@ const imgBaseURL = 'https://image.tmdb.org/t/p/w780/'
 
 const ItemGrid = (prop: RegimeProp) => {
     const content = useAppSelector(state => state.content)
+    const dispatch = useAppDispatch()
+
+    const commitSession = () => {
+        dispatch(setType(prop.regime))
+    }
 
     return (
         <>
@@ -34,7 +40,7 @@ const ItemGrid = (prop: RegimeProp) => {
                 const regime = (prop.regime == 'movies') ? 'movie' : 'tv'
 
                 elements.push(
-                    <Link className = "a gridItem" key = {data.id} to = {`${regime}/${data.id}`}>
+                    <Link className = "a gridItem" key = {data.id} to = {`${regime}/${data.id}`} onClick={commitSession}>
                         <div className='divSlike'>
                             <img className = "itemImage" alt = {data.title} src = {imgBaseURL + data.backdrop_path}></img>
                         </div>

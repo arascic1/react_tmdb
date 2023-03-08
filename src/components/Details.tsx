@@ -4,6 +4,7 @@ import axios from 'axios'
 import { MutableRefObject, useEffect, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import YouTube, { YouTubeProps } from 'react-youtube'
+import { useAppDispatch } from '../state/hooks'
 import './css/details.css'
 
 export const Details = () => {
@@ -35,8 +36,6 @@ export const Details = () => {
       }
     })()
   }, [])
-
-
 
   return (
     <>

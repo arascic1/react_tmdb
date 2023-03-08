@@ -5,7 +5,8 @@ import { fetchTopMovies, fetchTopTVShows } from '../../state/slices/contentSlice
 import "../css/genre_selector.css"
 
 type GenreSelectorProps = {
-    setRegime: Dispatch<React.SetStateAction<string>>
+    setRegime: Dispatch<React.SetStateAction<string>>,
+    regime: string
 }
 
 const GenreSelector = (props: GenreSelectorProps) => {
@@ -21,45 +22,41 @@ const GenreSelector = (props: GenreSelectorProps) => {
 
     const dispatch = useAppDispatch()
 
-    const [selected, setSelected] = useState("tv_initial");
-
     useEffect(() => {
         var movieButtonStyle = document.getElementById("moviesButton")!.style;
         var tvShowsButtonStyle = document.getElementById("tvShowButton")!.style;
 
-        if(selected === "tv") {
+        if(props.regime === "tv") {
             // drop movies style
             dropStyle(movieButtonStyle);
             enableStyle(tvShowsButtonStyle);
 
-            props.setRegime(selected)
-            // dispatch(fetchTopTVShows())
+            props.setRegime(props.regime)
         }
-        else if(selected === "movies") {
+        else if(props.regime === "movies") {
             dropStyle(tvShowsButtonStyle);
             enableStyle(movieButtonStyle);
 
-            props.setRegime(selected)
-            // dispatch(fetchTopMovies())
+            props.setRegime(props.regime)
         }
-        else if(selected === "tv_initial") {
+        else if(props.regime === "tv_initial") {
             dispatch(fetchTopTVShows())
         }
         else throw Error("hmm");
-    }, [selected]);
+    }, [props.regime]);
 
     return (
         <div className="container" id = "container">
             <button type = "button" 
                 className = "selectorButton" 
                 id = "moviesButton"
-                onClick = { () => { setSelected("movies") } }
+                onClick = { () => { props.setRegime("movies") } }
             >Movies</button>
             
             <button type = "button" 
                 className = "selectorButton" 
                 id = "tvShowButton"
-                onClick = { () => { setSelected("tv") } }
+                onClick = { () => { props.setRegime("tv") } }
             >TV Shows</button>
         </div>
     );
